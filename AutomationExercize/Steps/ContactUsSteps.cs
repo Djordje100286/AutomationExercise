@@ -27,6 +27,8 @@ namespace AutomationExercize.Steps
             ut.EnterTextInElement(cup.email, TestConstants.Username);
             ut.EnterTextInElement(cup.subject, TestConstants.Subject);
             ut.EnterTextInElement(cup.message, TestConstants.Message);
+            string path = @"C:\Users\Lenovo\Desktop\Proba_upload.pdf";
+            Driver.FindElement(cup.uploadBtn).SendKeys(path);
         }
         
         [When(@"submits contact us form")]

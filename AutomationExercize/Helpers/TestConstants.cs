@@ -25,5 +25,8 @@ namespace AutomationExercize.Helpers
         //contact us data
         public const string Subject = "Request";
         public const string Message = "Would you be able to remove all ads from your website?";
+
+        //search product data
+        public const string SearchProduct = "t-shirt";
     }
 }
