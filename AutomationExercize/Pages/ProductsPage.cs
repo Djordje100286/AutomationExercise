@@ -15,6 +15,10 @@ namespace AutomationExercize.Pages
         public By searchProduct = By.CssSelector(".container [type='text']");
         public By mgButton = By.CssSelector(".container [type='button']");
         public By searchedProducts = By.ClassName("title");
+        public By viewProduct = By.ClassName("fa fa-plus-square");
+        public By addBtn = By.ClassName("cart");
+        public By productName = By.XPath("//*[@class='product-information']//h2");
+        public By viewCart = By.XPath("//*[@id='cartModal']//a");
 
         public ProductsPage(IWebDriver driver)
         {
